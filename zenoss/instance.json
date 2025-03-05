@@ -1,0 +1,36 @@
+{
+    "instance" : {
+        "zenoss_mty" : {
+            "name" : "Monterrey",
+            "collector" : "ISSSTE",
+            "scheme" : "https",
+            "authority" : "zenoss5.resmgr.triara.mexico",
+            "user" : "admin",
+            "password" : "Itoc.Triara521*"
+        },
+        "zenoss_issste" : {
+            "name" : "PROD",
+            "collector" : "ISSSTE",
+            "scheme" : "https",
+            "authority" : "zenoss5.mxap-itoc-issstezcc01",
+            "user" : "admin",
+            "password" : "C0n5p1r4n01c0.zrmw*"
+        },
+        "zenoss_lab" : {
+            "name" : "LAB",
+            "collector" : "ISSSTE",
+            "scheme" : "https",
+            "authority" : "zenoss5.labzenossmty",
+            "user" : "admin",
+            "password" : "Itoc.Triara521*"
+        },
+        "zenoss_lab2" : {
+            "name" : "LAB",
+            "collector" : "ISSSTE",
+            "scheme" : "https",
+            "authority" : "zenoss5.labzenossmty2",
+            "user" : "admin",
+            "password" : "Itoc.Triara521*"
+        }
+    }
+}

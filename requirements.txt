@@ -1,0 +1,7 @@
+bs4
+requests
+urllib3
+dearpygui
+lxml
+tenacity
+tqdm

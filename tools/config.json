@@ -1,0 +1,60 @@
+{
+    "settings" : {
+        "fild" : {
+            "Instance Identifier" : "instanceIdentifier",
+            "Hostname" : "zenossHostname",
+            "SMTP Host" : "smtpHost",
+            "SMTP Port (usually 25)" : "smtpPort",
+            "SMTP Username (blank for none)" : "smtpUser",
+            "SMTP Password (blank for none)" : "smtpPass",
+            "From Address for Emails" : "emailFrom",
+            "Use TLS?" : "smtpUseTLS%3Aint%3Adefault",
+            "Page Command" : "pageCommand",
+            "Dashboard Production State Threshold" : "prodStateDashboardThresh",
+            "Dashboard Priority Threshold" : "priorityDashboardThresh",
+            "State Conversions" : "prodStateConversions%3Alines",
+            "Priority Conversions" : "priorityConversions%3Alines",
+            "AuthenticationYou will have to log off for this setting to take effect." : "userAuthType"
+        },
+        "replace" : {
+            "zenScreenName" : "editSettings",
+            "redirect" : "true",
+            "curPasswd" : "Itoc.Triara521*",
+            "zmanage_editProperties%3Amethod" : "+Save+",
+            "smtpPass" : "triaraItoc.Triara521*"
+        }
+    },
+    "zenPack" : {
+        "keys" :  [
+            "Pack",
+            "Version"
+        ]
+    },
+    "Devices" : {
+        "add" : {
+            "deviceName" : "",
+            "deviceClass" : "",
+            "model" : false,
+            "title" : "",
+            "priority" : 3,
+            "snmpCommunity" : "",
+            "snmpPort" : "161",
+            "tag" : "",
+            "rackSlot" : "",
+            "serialNumber" : "",
+            "hwManufacturer" : "",
+            "hwProductName" : "",
+            "osManufacturer" : "",
+            "osProductName" : "",
+            "comments" : "",
+            "locationPath" : "",
+            "groupPaths" : [],
+            "systemPaths" : [],
+            "zProperties": {}
+        },
+        "replace" : {
+            "deviceName" : "ipAddressString",
+            "title" : "name"
+        }
+    }
+}
